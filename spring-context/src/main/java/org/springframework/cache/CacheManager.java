@@ -22,7 +22,7 @@ import org.springframework.lang.Nullable;
 
 /**
  * Spring's central cache manager SPI.
- *
+ *测试
  * <p>Allows for retrieving named {@link Cache} regions.
  *
  * @author Costin Leau
