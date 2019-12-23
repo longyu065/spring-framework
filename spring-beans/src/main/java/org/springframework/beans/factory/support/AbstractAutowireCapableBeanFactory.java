@@ -944,7 +944,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 	/**
 	 * Obtain a reference for early access to the specified bean, 获得的早期访问指定的bean的引用
 	 * typically for the purpose of resolving a circular reference. 通常用于解决循环引用的目的
-	 *
+	 * getEarlyBeanReference中wrapIfNecessary 中会判断是否有advice 来是否生成代理
 	 * @param beanName the name of the bean (for error handling purposes)
 	 * @param mbd the merged bean definition for the bean
 	 * @param bean the raw bean instance
